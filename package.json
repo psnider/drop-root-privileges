@@ -1,0 +1,29 @@
+{
+  "name": "@sabbatical/drop-root-privileges",
+  "version": "0.1.0",
+  "description": "Set the privileges of a program to a given user and group.",
+  "main": "drop-root-privileges.js",
+  "typings": "drop-root-privileges.d.ts",
+  "keywords": [],
+  "private": false,
+  "scripts": {
+    "build": "npm run clean && tsc -p .",
+    "clean": "rm -f *.js"
+  },
+  "author": {
+    "name": "Peter Snider",
+    "email": "snider.peter@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "6.0.46",
+    "@types/pino": "3.0.1",
+    "typescript": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psnider/drop-root-privileges.git"
+  }
+}
